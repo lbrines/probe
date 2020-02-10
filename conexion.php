@@ -2,8 +2,8 @@
 
 
 $host = "localhost";
-$usuario= "c0_admin";
-$contraseña ="c93rip2n!q";
+$usuario= "";
+$contraseña ="";
 
 try {
    $conexion = new PDO("mysql:host=$host;dbname=c0_prode", $usuario, $contraseña);
